@@ -28,9 +28,7 @@ class CURA_TESTLISTENER {
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@BeforeTestCase
-	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
-		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseVariables()
+	def sampleBeforeTestCase() {
 		
 		WebUI.verifyMatch(WebUI.getWindowTitle(), 'CURA Healthcare Service', true)
 	}
@@ -40,10 +38,8 @@ class CURA_TESTLISTENER {
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@AfterTestCase
-	def sampleAfterTestCase(TestCaseContext testCaseContext) {
-		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseStatus()
-		
+	def sampleAfterTestCase() {
+		WebUI.delay(1)
 	}
 
 	/**
@@ -51,9 +47,7 @@ class CURA_TESTLISTENER {
 	 * @param testSuiteContext: related information of the executed test suite.
 	 */
 	@BeforeTestSuite
-	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
-		println testSuiteContext.getTestSuiteId()
-		
+	def sampleBeforeTestSuite() {
 		
 	}
 
@@ -62,7 +56,9 @@ class CURA_TESTLISTENER {
 	 * @param testSuiteContext: related information of the executed test suite.
 	 */
 	@AfterTestSuite
-	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
-		println testSuiteContext.getTestSuiteId()
-	}
+	def sampleAfterTestSuite() {
+		WebUI.delay(2)
+	
+		}
+	
 }

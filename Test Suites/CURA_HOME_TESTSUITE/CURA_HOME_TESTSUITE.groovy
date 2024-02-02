@@ -43,7 +43,7 @@ def setUp() {
 /**
  * Clean test suites environment.
  */
-@TearDown(skipped = true) // Please change skipped to be false to activate this method.
+@TearDown(skipped = false) // Please change skipped to be false to activate this method.
 def tearDown() {
 	// Put your code here.
 	WebUI.closeBrowser()
@@ -63,6 +63,7 @@ def setupTestCase() {
 @TearDownTestCase(skipped = true) // Please change skipped to be false to activate this method.
 def tearDownTestCase() {
 	// Put your code here.
+//	WebUI.delay(2)
 }
 
 /**
