@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_MAKEAPPOINTMENT_TESTSUITE,Firefox 85.0,,,02-02-2024 18:53:29,02-02-2024 18:54:12,43.207s,PASSED
+,,,,,,,
+Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_VERIFYING,Firefox 85.0,,,02-02-2024 18:53:59,02-02-2024 18:54:12,13.017s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 85.0,,,02-02-2024 18:53:59,02-02-2024 18:54:00,0.471s,PASSED
+delay(2),Firefox 85.0,,,02-02-2024 18:54:00,02-02-2024 18:54:02,2.067s,PASSED
+"com.qa.test.customfunction.CuraDropdown(findTestObject(""Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"")",Firefox 85.0,,,02-02-2024 18:54:02,02-02-2024 18:54:03,1.053s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Medicaid""))",Firefox 85.0,,,02-02-2024 18:54:03,02-02-2024 18:54:04,0.963s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Firefox 85.0,,,02-02-2024 18:54:04,02-02-2024 18:54:05,0.680s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/div_input-group-addon""))",Firefox 85.0,,,02-02-2024 18:54:05,02-02-2024 18:54:06,0.675s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/td_30""))",Firefox 85.0,,,02-02-2024 18:54:06,02-02-2024 18:54:06,0.594s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/textarea_comment""), ""csdiufhasicmals;kcopa"")",Firefox 85.0,,,02-02-2024 18:54:06,02-02-2024 18:54:07,0.696s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/button_Book Appointment""))",Firefox 85.0,,,02-02-2024 18:54:07,02-02-2024 18:54:08,0.969s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a""), 0)",Firefox 85.0,,,02-02-2024 18:54:08,02-02-2024 18:54:09,0.519s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/CURA_CHECKPOINT_DATA""), true)",Firefox 85.0,,,02-02-2024 18:54:09,02-02-2024 18:54:11,2.314s,PASSED
+Start tear down : tearDownTestCase,Firefox 85.0,,,02-02-2024 18:54:11,02-02-2024 18:54:12,1.166s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 85.0,,,02-02-2024 18:54:12,02-02-2024 18:54:12,0.053s,PASSED

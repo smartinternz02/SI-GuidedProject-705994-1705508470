@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_LOGIN,Chrome 120.0.0.0,,,26-01-2024 15:21:10,26-01-2024 15:23:01,1m - 50.921s,FAILED
+,,,,,,,
+Test Cases/TC_CURA_LOGIN/Cura_Login_001,Chrome 120.0.0.0,,,26-01-2024 15:22:55,26-01-2024 15:23:01,5.379s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,26-01-2024 15:22:55,26-01-2024 15:22:59,3.603s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/i_fa fa-bars""))",Chrome 120.0.0.0,,,26-01-2024 15:22:59,26-01-2024 15:23:00,1.061s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,26-01-2024 15:23:00,26-01-2024 15:23:01,0.621s,PASSED

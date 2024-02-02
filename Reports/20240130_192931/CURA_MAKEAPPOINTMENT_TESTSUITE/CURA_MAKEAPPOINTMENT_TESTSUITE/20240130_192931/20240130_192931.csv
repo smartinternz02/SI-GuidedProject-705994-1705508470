@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_MAKEAPPOINTMENT_TESTSUITE,Chrome 120.0.0.0,,,30-01-2024 19:29:44,30-01-2024 19:30:11,26.627s,PASSED
+,,,,,,,
+Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKAEAPPOINTMENT_VERIFYING,Chrome 120.0.0.0,,,30-01-2024 19:29:55,30-01-2024 19:30:11,16.273s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,30-01-2024 19:29:55,30-01-2024 19:29:55,0.279s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/amenu-toggle""))",Chrome 120.0.0.0,,,30-01-2024 19:29:56,30-01-2024 19:29:56,0.637s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/a_Login""))",Chrome 120.0.0.0,,,30-01-2024 19:29:56,30-01-2024 19:29:57,1.241s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Chrome 120.0.0.0,,,30-01-2024 19:29:57,30-01-2024 19:29:59,1.047s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 120.0.0.0,,,30-01-2024 19:29:59,30-01-2024 19:29:59,0.724s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,30-01-2024 19:29:59,30-01-2024 19:30:02,2.246s,PASSED
+"custom.custom_keyword.CuradropdownlistExist(findTestObject(""Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Seoul CURA Healthcare Center"")",Chrome 120.0.0.0,,,30-01-2024 19:30:02,30-01-2024 19:30:02,0.959s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Medicaid""))",Chrome 120.0.0.0,,,30-01-2024 19:30:02,30-01-2024 19:30:03,0.444s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 120.0.0.0,,,30-01-2024 19:30:03,30-01-2024 19:30:03,0.404s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/div_input-group-addon""))",Chrome 120.0.0.0,,,30-01-2024 19:30:03,30-01-2024 19:30:04,0.435s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/td_30""))",Chrome 120.0.0.0,,,30-01-2024 19:30:04,30-01-2024 19:30:04,0.482s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/textarea_comment""), ""csdiufhasicmals;kcopa"")",Chrome 120.0.0.0,,,30-01-2024 19:30:04,30-01-2024 19:30:05,0.854s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 120.0.0.0,,,30-01-2024 19:30:05,30-01-2024 19:30:07,1.876s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a""), 0)",Chrome 120.0.0.0,,,30-01-2024 19:30:07,30-01-2024 19:30:07,0.485s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/amenu-toggle""))",Chrome 120.0.0.0,,,30-01-2024 19:30:07,30-01-2024 19:30:08,0.405s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/a_Logout""))",Chrome 120.0.0.0,,,30-01-2024 19:30:08,30-01-2024 19:30:10,2.187s,PASSED
+Start tear down : tearDownTestCase,Chrome 120.0.0.0,,,30-01-2024 19:30:10,30-01-2024 19:30:11,1.055s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,30-01-2024 19:30:11,30-01-2024 19:30:11,0.016s,PASSED

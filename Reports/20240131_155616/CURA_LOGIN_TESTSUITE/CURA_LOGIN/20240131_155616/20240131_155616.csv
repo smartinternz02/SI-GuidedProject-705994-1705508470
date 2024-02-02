@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_LOGIN,,,,31-01-2024 15:56:32,31-01-2024 15:56:38,6.124s,FAILED
+,,,,,,,
+Test Cases/TC_CURA_LOGIN/CURA_LOGIN_BYGLOBAL_001,,,,31-01-2024 15:56:33,31-01-2024 15:56:38,4.642s,FAILED
+Start listener action : sampleBeforeTestCase,,,,31-01-2024 15:56:34,31-01-2024 15:56:35,1.381s,ERROR
+"click(findTestObject(""Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle""))",,,,31-01-2024 15:56:35,31-01-2024 15:56:36,0.474s,FAILED
+Start tear down : tearDownTestCase,,,,31-01-2024 15:56:36,31-01-2024 15:56:38,2.179s,PASSED
+Start listener action : sampleAfterTestCase,,,,31-01-2024 15:56:38,31-01-2024 15:56:38,0.021s,PASSED

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_CURA Healthcare</name>
+   <tag></tag>
+   <elementGuidId>7e6feaa5-13b5-43ad-bc86-17b45554cc90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;$('#menu-close').click();&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.sidebar-brand > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0a98fed2-48b4-4e76-bf48-3790379de16c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>./</value>
+      <webElementGuid>4735f4dd-7a02-4832-bea6-c76dc33830f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>$('#menu-close').click();</value>
+      <webElementGuid>662bda3b-f1f6-4b3a-a728-83182d0b4d7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CURA Healthcare</value>
+      <webElementGuid>e3d981cd-54f3-4c07-90a9-313329b21d36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-wrapper&quot;)/ul[@class=&quot;sidebar-nav&quot;]/li[@class=&quot;sidebar-brand&quot;]/a[1]</value>
+      <webElementGuid>1d84c9c4-e06e-4bbd-b2d9-f3e96721b328</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;$('#menu-close').click();&quot;]</value>
+      <webElementGuid>40b2993b-98c8-4422-b718-ed8e0d24033e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='sidebar-wrapper']/ul/li/a</value>
+      <webElementGuid>d5423fe3-f852-4177-9813-60d3b2e6a124</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'CURA Healthcare')]</value>
+      <webElementGuid>8c0c8bce-cdf3-4d72-bb7c-bcc1b51f7d3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, './')]</value>
+      <webElementGuid>72fafa54-b101-42e1-b24e-bae04448676c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/a</value>
+      <webElementGuid>c234c954-a939-42ba-999d-8e3217f8ad2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = './' and (text() = 'CURA Healthcare' or . = 'CURA Healthcare')]</value>
+      <webElementGuid>a6216ac6-1652-49cc-96b7-9e8915bd2ef8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

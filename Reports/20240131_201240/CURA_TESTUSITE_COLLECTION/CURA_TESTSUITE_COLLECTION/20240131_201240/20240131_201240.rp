@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20240131_201240</name>
+   <tag></tag>
+   <displayName>20240131_201240</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240131_201240/CURA_LOGIN_TESTSUITE/CURA_LOGIN/20240131_201243</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>REGRESSION</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Edge Chromium</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/CURA_TESTUSITE_COLLECTION/CURA_TESTSUITE_COLLECTION</testSuiteCollectionId>
+</ReportCollectionEntity>

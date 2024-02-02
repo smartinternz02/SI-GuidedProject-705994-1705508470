@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_MAKEAPPOINTMENT_TESTSUITE,Chrome 120.0.0.0,,,30-01-2024 20:42:49,30-01-2024 20:43:20,31.069s,ERROR
+,,,,,,,
+Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKAEAPPOINTMENT_VERIFYING,Chrome 120.0.0.0,,,30-01-2024 20:43:04,30-01-2024 20:43:20,16.315s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,30-01-2024 20:43:04,30-01-2024 20:43:05,1.788s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/amenu-toggle""))",Chrome 120.0.0.0,,,30-01-2024 20:43:06,30-01-2024 20:43:07,0.880s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/a_Login""))",Chrome 120.0.0.0,,,30-01-2024 20:43:07,30-01-2024 20:43:09,2.226s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Chrome 120.0.0.0,,,30-01-2024 20:43:09,30-01-2024 20:43:11,1.556s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 120.0.0.0,,,30-01-2024 20:43:11,30-01-2024 20:43:12,0.909s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,30-01-2024 20:43:12,30-01-2024 20:43:16,3.815s,PASSED
+delay(2),Chrome 120.0.0.0,,,30-01-2024 20:43:16,30-01-2024 20:43:18,2.270s,PASSED
+"com.qa.test.customfunction.CuraDropdown(findTestObject(""Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"")",Chrome 120.0.0.0,,,30-01-2024 20:43:18,30-01-2024 20:43:19,0.798s,ERROR
+Start tear down : tearDownTestCase,Chrome 120.0.0.0,,,30-01-2024 20:43:19,30-01-2024 20:43:20,1.043s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,30-01-2024 20:43:20,30-01-2024 20:43:20,0.017s,PASSED

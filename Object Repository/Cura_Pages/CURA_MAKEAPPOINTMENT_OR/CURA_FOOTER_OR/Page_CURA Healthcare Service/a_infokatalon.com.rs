@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_infokatalon.com</name>
+   <tag></tag>
+   <elementGuidId>0c317d2a-0b10-4de0-b6d4-167db00fc6b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'info@katalon.com')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.list-unstyled > li:nth-of-type(2) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>61614e09-52be-4f50-92ca-ec22a3de1831</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>mailto:info@katalon.com</value>
+      <webElementGuid>3ef589d2-8c71-484f-942c-849fbe408761</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>info@katalon.com</value>
+      <webElementGuid>363795ca-67f2-4062-aaee-2855ab17913c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/footer[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-10 col-lg-offset-1 text-center&quot;]/ul[@class=&quot;list-unstyled&quot;]/li[2]/a[1]</value>
+      <webElementGuid>915d3f59-b357-4ee2-a148-29f2bb27ee77</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'info@katalon.com')]</value>
+      <webElementGuid>5dff6383-9d24-456a-9b7d-f309f12d10c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'mailto:info@katalon.com')]</value>
+      <webElementGuid>3690d42b-2e66-4cfb-974a-953cc3fde9da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ul/li[2]/a</value>
+      <webElementGuid>2c3a4568-b3a1-41d1-9a14-c85cdd5647ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'mailto:info@katalon.com' and (text() = 'info@katalon.com' or . = 'info@katalon.com')]</value>
+      <webElementGuid>14133406-0128-47fd-8776-7972e52bbd50</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

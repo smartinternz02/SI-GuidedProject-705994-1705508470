@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_LOGIN,Chrome 120.0.0.0,,,26-01-2024 15:42:26,26-01-2024 15:46:20,3m - 53.703s,FAILED
+,,,,,,,
+Test Cases/TC_CURA_LOGIN/Cura_Login_001,Chrome 120.0.0.0,,,26-01-2024 15:42:30,26-01-2024 15:46:20,3m - 49.958s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,26-01-2024 15:42:30,26-01-2024 15:45:01,2m - 31.444s,ERROR
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/i_fa fa-bars""))",Chrome 120.0.0.0,,,26-01-2024 15:45:06,26-01-2024 15:45:08,2.259s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login""))",Chrome 120.0.0.0,,,26-01-2024 15:45:08,26-01-2024 15:45:11,3.261s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Chrome 120.0.0.0,,,26-01-2024 15:45:11,26-01-2024 15:45:43,32.011s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,26-01-2024 15:45:43,26-01-2024 15:46:20,36.479s,ERROR

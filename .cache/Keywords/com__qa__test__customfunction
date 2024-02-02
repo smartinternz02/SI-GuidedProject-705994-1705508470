@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "DEF5C1BD788373FD248D671ED0FB9829",
+  "keywordClasses": [
+    {
+      "name": "com.qa.test.customfunction",
+      "keywordMethods": [
+        {
+          "name": "CuraDropdown",
+          "parameters": [
+            {
+              "name": "ojb",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "str_opt",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

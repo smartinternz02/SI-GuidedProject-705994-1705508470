@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CURA_MAKEAPPOINTMENT_TESTSUITE" time="83.948" tests="5" failures="2" errors="0">
+   <testsuite name="CURA_MAKEAPPOINTMENT_TESTSUITE" tests="5" failures="2" errors="0" time="83.948" skipped="0" timestamp="31-01-2024T16:07:32" hostname="hp - LAPTOP-F3RG2V3G" id="Test Suites/CURA_MAKEAPPOINTMENT_TESTSUITE/CURA_MAKEAPPOINTMENT_TESTSUITE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hp\\Katalon Studio\\CURA_HEALTHCARE_SERVICE\\Reports\\20240131_160715\\CURA_MAKEAPPOINTMENT_TESTSUITE\\CURA_MAKEAPPOINTMENT_TESTSUITE\\20240131_160715"/>
+         <property name="logFiles" value="C:\\Users\\hp\\Katalon Studio\\CURA_HEALTHCARE_SERVICE\\Reports\\20240131_160715\\CURA_MAKEAPPOINTMENT_TESTSUITE\\CURA_MAKEAPPOINTMENT_TESTSUITE\\20240131_160715\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hp\\Katalon Studio\\CURA_HEALTHCARE_SERVICE\\Reports\\20240131_160715\\CURA_MAKEAPPOINTMENT_TESTSUITE\\CURA_MAKEAPPOINTMENT_TESTSUITE\\20240131_160715\\1706697519164.png, C:\\Users\\hp\\Katalon Studio\\CURA_HEALTHCARE_SERVICE\\Reports\\20240131_160715\\CURA_MAKEAPPOINTMENT_TESTSUITE\\CURA_MAKEAPPOINTMENT_TESTSUITE\\20240131_160715\\1706697529350.png, C:\\Users\\hp\\Katalon Studio\\CURA_HEALTHCARE_SERVICE\\Reports\\20240131_160715\\CURA_MAKEAPPOINTMENT_TESTSUITE\\CURA_MAKEAPPOINTMENT_TESTSUITE\\20240131_160715\\1706697529651.png"/>
+         <property name="hostName" value="hp - LAPTOP-F3RG2V3G"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.51.157"/>
+         <property name="sessionId" value="b09ad40d46685262187c3fa731f3369a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKAEAPPOINTMENT_VERIFYING" time="10.393" classname="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKAEAPPOINTMENT_VERIFYING" status="PASSED">
+         <system-out><![CDATA[31-01-2024T16:07:52 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKAEAPPOINTMENT_VERIFYING: Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKAEAPPOINTMENT_VERIFYING
+
+31-01-2024T16:07:52 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+31-01-2024T16:07:52 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T16:07:52 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T16:07:52 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+31-01-2024T16:07:53 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+31-01-2024T16:07:53 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+31-01-2024T16:07:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+31-01-2024T16:07:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+31-01-2024T16:07:55 - [TEST_STEP][PASSED] - com.qa.test.customfunction.CuraDropdown(findTestObject("Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center"): com.qa.test.customfunction.CuraDropdown is PASSED
+
+31-01-2024T16:07:56 - [MESSAGE][PASSED] - com.qa.test.customfunction.CuraDropdown is PASSED
+
+31-01-2024T16:07:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+31-01-2024T16:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+31-01-2024T16:07:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+31-01-2024T16:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+31-01-2024T16:07:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/div_input-group-addon")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/div_input-group-addon' is clicked on
+
+31-01-2024T16:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/div_input-group-addon' is clicked on
+
+31-01-2024T16:07:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/td_30")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/td_30' is clicked on
+
+31-01-2024T16:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/td_30' is clicked on
+
+31-01-2024T16:07:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/textarea_comment"), "csdiufhasicmals;kcopa"): Text 'csdiufhasicmals;kcopa' is set on object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/textarea_comment'
+
+31-01-2024T16:07:59 - [MESSAGE][PASSED] - Text 'csdiufhasicmals;kcopa' is set on object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/textarea_comment'
+
+31-01-2024T16:07:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+31-01-2024T16:08:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+31-01-2024T16:08:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a"), 0): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a' is present
+
+31-01-2024T16:08:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T16:08:02 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a' is present
+
+31-01-2024T16:08:02 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+31-01-2024T16:08:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+31-01-2024T16:08:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+31-01-2024T16:08:03 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+31-01-2024T16:08:03 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T16:08:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T16:08:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_HISTORY" time="37.426" classname="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_HISTORY" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_HISTORY FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)&#xa;	at CURA_MAKEAPPOINTMENT_HISTORY.run(CURA_MAKEAPPOINTMENT_HISTORY:38)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1706697435861.run(TempTestSuite1706697435861.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107' located by '//select[@id='combo_facility']' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[31-01-2024T16:08:03 - [TEST_CASE][FAILED] - Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_HISTORY: Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_HISTORY FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at CURA_MAKEAPPOINTMENT_HISTORY.run(CURA_MAKEAPPOINTMENT_HISTORY:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706697435861.run(TempTestSuite1706697435861.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107' located by '//select[@id='combo_facility']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+31-01-2024T16:08:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+31-01-2024T16:08:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T16:08:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T16:08:03 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+31-01-2024T16:08:03 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+31-01-2024T16:08:03 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+31-01-2024T16:08:04 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at CURA_MAKEAPPOINTMENT_HISTORY.run(CURA_MAKEAPPOINTMENT_HISTORY:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706697435861.run(TempTestSuite1706697435861.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107' located by '//select[@id='combo_facility']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at Script1706424368317.run(Script1706424368317.groovy:38)
+	... 15 more
+)
+
+31-01-2024T16:08:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='combo_facility']'. Please recheck the objects properties to make sure the desired element is located. 
+
+31-01-2024T16:08:35 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'. Try using Self-healing.
+
+31-01-2024T16:08:35 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//select[@id='combo_facility']'.
+
+31-01-2024T16:08:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//section[@id='appointment']/div/div/form/div/div/select'.
+
+31-01-2024T16:08:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//select'.
+
+31-01-2024T16:08:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//select[@id = 'combo_facility' and @name = 'facility' and (text() = '
+                            Tokyo CURA Healthcare Center
+                            Hongkong CURA Healthcare Center
+                            Seoul CURA Healthcare Center
+                        ' or . = '
+                            Tokyo CURA Healthcare Center
+                            Hongkong CURA Healthcare Center
+                            Seoul CURA Healthcare Center
+                        ')]'.
+
+31-01-2024T16:08:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'combo_facility' and @name = 'facility' and (text() = '
+                            Tokyo CURA Healthcare Center
+                            Hongkong CURA Healthcare Center
+                            Seoul CURA Healthcare Center
+                        ' or . = '
+                            Tokyo CURA Healthcare Center
+                            Hongkong CURA Healthcare Center
+                            Seoul CURA Healthcare Center
+                        ')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+31-01-2024T16:08:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #combo_facility'. Please recheck the objects properties to make sure the desired element is located. 
+
+31-01-2024T16:08:39 - [MESSAGE][FAILED] - Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at CURA_MAKEAPPOINTMENT_HISTORY.run(CURA_MAKEAPPOINTMENT_HISTORY:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706697435861.run(TempTestSuite1706697435861.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107' located by '//select[@id='combo_facility']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at Script1706424368317.run(Script1706424368317.groovy:38)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\hp\\Katalon Studio\\CURA_HEALTHCARE_SERVICE\\Reports\\20240131_160715\\CURA_MAKEAPPOINTMENT_TESTSUITE\\CURA_MAKEAPPOINTMENT_TESTSUITE\\20240131_160715\\1706697519164.png]]
+
+31-01-2024T16:08:39 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+31-01-2024T16:08:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+31-01-2024T16:08:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+31-01-2024T16:08:40 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+31-01-2024T16:08:40 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T16:08:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T16:08:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[31-01-2024T16:08:03 - [TEST_CASE][FAILED] - Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_HISTORY: Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_HISTORY FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at CURA_MAKEAPPOINTMENT_HISTORY.run(CURA_MAKEAPPOINTMENT_HISTORY:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706697435861.run(TempTestSuite1706697435861.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107' located by '//select[@id='combo_facility']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPIONTMENT_PROFILE" time="5.102" classname="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPIONTMENT_PROFILE" status="PASSED">
+         <system-out><![CDATA[31-01-2024T16:08:40 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPIONTMENT_PROFILE: Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPIONTMENT_PROFILE
+
+31-01-2024T16:08:40 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+31-01-2024T16:08:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T16:08:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T16:08:40 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+31-01-2024T16:08:40 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+31-01-2024T16:08:40 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+31-01-2024T16:08:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+31-01-2024T16:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+31-01-2024T16:08:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/a_Profile")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/a_Profile' is clicked on
+
+31-01-2024T16:08:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/a_Profile' is clicked on
+
+31-01-2024T16:08:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/p_Under construction"), 0): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/p_Under construction' is present
+
+31-01-2024T16:08:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T16:08:43 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/p_Under construction' is present
+
+31-01-2024T16:08:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/h2_Profile"), "Profile"): Actual text and expected text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/h2_Profile' are matched.
+
+31-01-2024T16:08:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/h2_Profile' are matched.
+
+31-01-2024T16:08:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/p_Logout")): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/p_Logout' is clickable
+
+31-01-2024T16:08:44 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/p_Logout' is clickable
+
+31-01-2024T16:08:44 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+31-01-2024T16:08:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+31-01-2024T16:08:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+31-01-2024T16:08:45 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+31-01-2024T16:08:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T16:08:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T16:08:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_FOOTER" time="5.176" classname="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_FOOTER" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_FOOTER FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at CURA_MAKEAPPOINTMENT_FOOTER.run(CURA_MAKEAPPOINTMENT_FOOTER:56)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1706697435861.run(TempTestSuite1706697435861.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Logout' and expected text 'Copyright © CURA Healthcare Service 2024' of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[31-01-2024T16:08:45 - [TEST_CASE][FAILED] - Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_FOOTER: Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_FOOTER FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at CURA_MAKEAPPOINTMENT_FOOTER.run(CURA_MAKEAPPOINTMENT_FOOTER:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706697435861.run(TempTestSuite1706697435861.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Logout' and expected text 'Copyright © CURA Healthcare Service 2024' of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+31-01-2024T16:08:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+31-01-2024T16:08:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T16:08:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T16:08:45 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+31-01-2024T16:08:45 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+31-01-2024T16:08:45 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+31-01-2024T16:08:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/footer_CURA Healthcare Service             _54f5c2"), 0): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/footer_CURA Healthcare Service             _54f5c2' is present
+
+31-01-2024T16:08:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T16:08:46 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/footer_CURA Healthcare Service             _54f5c2' is present
+
+31-01-2024T16:08:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85"), 0): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' is present
+
+31-01-2024T16:08:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T16:08:46 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' is present
+
+31-01-2024T16:08:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/li_(678) 813-1KMS"), "(678) 813-1KMS"): Actual text and expected text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/li_(678) 813-1KMS' are matched.
+
+31-01-2024T16:08:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/li_(678) 813-1KMS' are matched.
+
+31-01-2024T16:08:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-envelope-o fa-fw"), 0): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-envelope-o fa-fw' is present
+
+31-01-2024T16:08:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T16:08:47 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-envelope-o fa-fw' is present
+
+31-01-2024T16:08:47 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-facebook fa-fw fa-3x")): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-facebook fa-fw fa-3x' is clickable
+
+31-01-2024T16:08:47 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-facebook fa-fw fa-3x' is clickable
+
+31-01-2024T16:08:47 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-twitter fa-fw fa-3x")): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-twitter fa-fw fa-3x' is clickable
+
+31-01-2024T16:08:48 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-twitter fa-fw fa-3x' is clickable
+
+31-01-2024T16:08:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-dribbble fa-fw fa-3x")): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-dribbble fa-fw fa-3x' is clickable
+
+31-01-2024T16:08:48 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-dribbble fa-fw fa-3x' is clickable
+
+31-01-2024T16:08:48 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024"), "Copyright © CURA Healthcare Service 2024"): Verify element text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at CURA_MAKEAPPOINTMENT_FOOTER.run(CURA_MAKEAPPOINTMENT_FOOTER:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706697435861.run(TempTestSuite1706697435861.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Logout' and expected text 'Copyright © CURA Healthcare Service 2024' of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+31-01-2024T16:08:49 - [MESSAGE][FAILED] - Actual text 'Logout' and expected text 'Copyright © CURA Healthcare Service 2024' of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Logout' and expected text 'Copyright © CURA Healthcare Service 2024' of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at CURA_MAKEAPPOINTMENT_FOOTER.run(CURA_MAKEAPPOINTMENT_FOOTER:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706697435861.run(TempTestSuite1706697435861.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\hp\\Katalon Studio\\CURA_HEALTHCARE_SERVICE\\Reports\\20240131_160715\\CURA_MAKEAPPOINTMENT_TESTSUITE\\CURA_MAKEAPPOINTMENT_TESTSUITE\\20240131_160715\\1706697529350.png]]
+
+31-01-2024T16:08:49 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at CURA_MAKEAPPOINTMENT_FOOTER.run(CURA_MAKEAPPOINTMENT_FOOTER:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706697435861.run(TempTestSuite1706697435861.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Logout' and expected text 'Copyright © CURA Healthcare Service 2024' of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\hp\\Katalon Studio\\CURA_HEALTHCARE_SERVICE\\Reports\\20240131_160715\\CURA_MAKEAPPOINTMENT_TESTSUITE\\CURA_MAKEAPPOINTMENT_TESTSUITE\\20240131_160715\\1706697529651.png]]
+
+31-01-2024T16:08:49 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+31-01-2024T16:08:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+31-01-2024T16:08:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+31-01-2024T16:08:50 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+31-01-2024T16:08:50 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T16:08:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T16:08:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[31-01-2024T16:08:45 - [TEST_CASE][FAILED] - Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_FOOTER: Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_FOOTER FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at CURA_MAKEAPPOINTMENT_FOOTER.run(CURA_MAKEAPPOINTMENT_FOOTER:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706697435861.run(TempTestSuite1706697435861.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Logout' and expected text 'Copyright © CURA Healthcare Service 2024' of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_LOGOUT" time="5.167" classname="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_LOGOUT" status="PASSED">
+         <system-out><![CDATA[31-01-2024T16:08:50 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_LOGOUT: Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_LOGOUT
+
+31-01-2024T16:08:50 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+31-01-2024T16:08:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T16:08:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T16:08:50 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+31-01-2024T16:08:51 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+31-01-2024T16:08:51 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+31-01-2024T16:08:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+31-01-2024T16:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+31-01-2024T16:08:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_CURA Healthcare")): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_CURA Healthcare' is clickable
+
+31-01-2024T16:08:52 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_CURA Healthcare' is clickable
+
+31-01-2024T16:08:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+31-01-2024T16:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+31-01-2024T16:08:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+31-01-2024T16:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+31-01-2024T16:08:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_Login"), 0): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_Login' is present
+
+31-01-2024T16:08:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T16:08:54 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_Login' is present
+
+31-01-2024T16:08:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/div_CURA Healthcare Service        We Care _b17f12")): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/div_CURA Healthcare Service        We Care _b17f12' is visible
+
+31-01-2024T16:08:55 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/div_CURA Healthcare Service        We Care _b17f12' is visible
+
+31-01-2024T16:08:55 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+31-01-2024T16:08:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+31-01-2024T16:08:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+31-01-2024T16:08:56 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+31-01-2024T16:08:56 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T16:08:56 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T16:08:56 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-01-2024T16:07:32 - [TEST_SUITE][FAILED] - CURA_MAKEAPPOINTMENT_TESTSUITE: Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_HISTORY FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at CURA_MAKEAPPOINTMENT_HISTORY.run(CURA_MAKEAPPOINTMENT_HISTORY:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706697435861.run(TempTestSuite1706697435861.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107' located by '//select[@id='combo_facility']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[31-01-2024T16:07:32 - [TEST_SUITE][FAILED] - CURA_MAKEAPPOINTMENT_TESTSUITE: Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_HISTORY FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at CURA_MAKEAPPOINTMENT_HISTORY.run(CURA_MAKEAPPOINTMENT_HISTORY:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706697435861.run(TempTestSuite1706697435861.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107' located by '//select[@id='combo_facility']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

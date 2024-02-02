@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_HOME_TESTSUITE,Chrome 120.0.0.0,,,31-01-2024 19:16:22,31-01-2024 19:16:55,32.417s,PASSED
+,,,,,,,
+Test Cases/TC_CURA_HOME/CURA_HOME_VERIFYHOMEPAGETEXT,Chrome 120.0.0.0,,,31-01-2024 19:16:35,31-01-2024 19:16:49,14.343s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,31-01-2024 19:16:35,31-01-2024 19:16:35,0.386s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Cura_Pages/CURA_HOME_OR/CURA_HOME_VERIFYHOMEPAGETEXT_OR/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), 0)",Chrome 120.0.0.0,,,31-01-2024 19:16:36,31-01-2024 19:16:37,0.868s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Cura_Pages/CURA_HOME_OR/CURA_HOME_VERIFYHOMEPAGETEXT_OR/Page_CURA Healthcare Service/h3_We Care About Your Health""), 0)",Chrome 120.0.0.0,,,31-01-2024 19:16:37,31-01-2024 19:16:37,0.679s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Cura_Pages/CURA_HOME_OR/CURA_HOME_VERIFYHOMEPAGETEXT_OR/Page_CURA Healthcare Service/h4_CURA Healthcare Service""), 0)",Chrome 120.0.0.0,,,31-01-2024 19:16:37,31-01-2024 19:16:38,0.901s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Cura_Pages/CURA_HOME_OR/CURA_HOME_VERIFYHOMEPAGETEXT_OR/Page_CURA Healthcare Service/div_CURA Healthcare Service        We Care _b17f12""), 0)",Chrome 120.0.0.0,,,31-01-2024 19:16:38,31-01-2024 19:16:39,0.495s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 120.0.0.0,,,31-01-2024 19:16:39,31-01-2024 19:16:48,9.517s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 19:16:48,31-01-2024 19:16:49,1.058s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,31-01-2024 19:16:49,31-01-2024 19:16:49,0.018s,PASSED
+,,,,,,,
+Test Cases/TC_CURA_HOME/CURA_HOME_VALIDATEBUTTON,Chrome 120.0.0.0,,,31-01-2024 19:16:49,31-01-2024 19:16:55,5.527s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,31-01-2024 19:16:49,31-01-2024 19:16:50,0.076s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_HOME_OR/CURA_HOME_VALIDATEBUTTON_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,31-01-2024 19:16:50,31-01-2024 19:16:52,1.998s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Cura_Pages/CURA_HOME_OR/CURA_HOME_VALIDATEBUTTON_OR/Page_CURA Healthcare Service/p_Please login to make appointment""), 0)",Chrome 120.0.0.0,,,31-01-2024 19:16:52,31-01-2024 19:16:52,0.556s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Cura_Pages/CURA_HOME_OR/CURA_HOME_VALIDATEBUTTON_OR/Page_CURA Healthcare Service/button_Login""), 0)",Chrome 120.0.0.0,,,31-01-2024 19:16:52,31-01-2024 19:16:53,0.374s,PASSED
+delay(2),Chrome 120.0.0.0,,,31-01-2024 19:16:53,31-01-2024 19:16:55,2.011s,PASSED
+"out.println(""successfull"")",Chrome 120.0.0.0,,,31-01-2024 19:16:55,31-01-2024 19:16:55,0.097s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,31-01-2024 19:16:55,31-01-2024 19:16:55,0.028s,PASSED

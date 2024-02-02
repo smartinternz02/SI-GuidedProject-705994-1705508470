@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/TC_CURA_LOGIN/CURA_LOGIN_001","testCaseId":"Test Cases/TC_CURA_LOGIN/CURA_LOGIN_001","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC_CURA_LOGIN/CURA_LOGIN_002","testCaseId":"Test Cases/TC_CURA_LOGIN/CURA_LOGIN_002","iterationVariableName":"","bindedValues":{"PASSWORD":"\u0027ThisIsNotAPassword\u0027","USERNAME":"\u0027John Doe\u0027"}}
+{"testCaseName":"Test Cases/TC_CURA_LOGIN/CURA_LOGIN_002","testCaseId":"Test Cases/TC_CURA_LOGIN/CURA_LOGIN_002","iterationVariableName":"","bindedValues":{"PASSWORD":"\u0027ThisIsNotAPassword\u0027","USERNAME":"\u0027John Doe\u0027"}}
+{"testCaseName":"Test Cases/TC_CURA_LOGIN/CURA_LOGIN_002","testCaseId":"Test Cases/TC_CURA_LOGIN/CURA_LOGIN_002","iterationVariableName":"","bindedValues":{"PASSWORD":"\u0027ThisIsNotAPassword\u0027","USERNAME":"\u0027YASH\u0027"}}

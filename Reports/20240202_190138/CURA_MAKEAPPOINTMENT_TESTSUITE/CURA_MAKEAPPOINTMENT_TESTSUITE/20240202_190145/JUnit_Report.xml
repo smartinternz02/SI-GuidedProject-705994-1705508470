@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CURA_MAKEAPPOINTMENT_TESTSUITE" time="73.127" tests="5" failures="0" errors="0">
+   <testsuite name="CURA_MAKEAPPOINTMENT_TESTSUITE" tests="5" failures="0" errors="0" time="73.127" skipped="0" timestamp="02-02-2024T19:06:02" hostname="hp - LAPTOP-F3RG2V3G" id="Test Suites/CURA_MAKEAPPOINTMENT_TESTSUITE/CURA_MAKEAPPOINTMENT_TESTSUITE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hp\\Katalon Studio\\CURA_HEALTHCARE_SERVICE\\Reports\\20240202_190138\\CURA_MAKEAPPOINTMENT_TESTSUITE\\CURA_MAKEAPPOINTMENT_TESTSUITE\\20240202_190145"/>
+         <property name="logFiles" value="C:\\Users\\hp\\Katalon Studio\\CURA_HEALTHCARE_SERVICE\\Reports\\20240202_190138\\CURA_MAKEAPPOINTMENT_TESTSUITE\\CURA_MAKEAPPOINTMENT_TESTSUITE\\20240202_190145\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hp - LAPTOP-F3RG2V3G"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Firefox 85.0"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="bf73c123-aca9-4e6c-a9c9-e37fb28d80ea"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_VERIFYING" time="12.436" classname="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_VERIFYING" status="PASSED">
+         <system-out><![CDATA[02-02-2024T19:06:31 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_VERIFYING: Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_VERIFYING
+
+02-02-2024T19:06:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+02-02-2024T19:06:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+02-02-2024T19:06:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+02-02-2024T19:06:31 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+02-02-2024T19:06:31 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+02-02-2024T19:06:32 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+02-02-2024T19:06:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+02-02-2024T19:06:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-02-2024T19:06:34 - [TEST_STEP][PASSED] - com.qa.test.customfunction.CuraDropdown(findTestObject("Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center"): com.qa.test.customfunction.CuraDropdown is PASSED
+
+02-02-2024T19:06:35 - [MESSAGE][PASSED] - com.qa.test.customfunction.CuraDropdown is PASSED
+
+02-02-2024T19:06:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-02-2024T19:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-02-2024T19:06:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-02-2024T19:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-02-2024T19:06:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/div_input-group-addon")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/div_input-group-addon' is clicked on
+
+02-02-2024T19:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/div_input-group-addon' is clicked on
+
+02-02-2024T19:06:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/td_30")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/td_30' is clicked on
+
+02-02-2024T19:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/td_30' is clicked on
+
+02-02-2024T19:06:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/textarea_comment"), "csdiufhasicmals;kcopa"): Text 'csdiufhasicmals;kcopa' is set on object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/textarea_comment'
+
+02-02-2024T19:06:39 - [MESSAGE][PASSED] - Text 'csdiufhasicmals;kcopa' is set on object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/textarea_comment'
+
+02-02-2024T19:06:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-02-2024T19:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-02-2024T19:06:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a"), 0): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a' is present
+
+02-02-2024T19:06:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T19:06:40 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a' is present
+
+02-02-2024T19:06:40 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/CURA_CHECKPOINT_DATA"), true): Checkpoint data and Source data are matched
+
+02-02-2024T19:06:42 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+02-02-2024T19:06:42 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+02-02-2024T19:06:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+02-02-2024T19:06:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+02-02-2024T19:06:43 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+02-02-2024T19:06:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+02-02-2024T19:06:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+02-02-2024T19:06:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_HISTORY" time="16.774" classname="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_HISTORY" status="PASSED">
+         <system-out><![CDATA[02-02-2024T19:06:43 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_HISTORY: Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_HISTORY
+
+02-02-2024T19:06:44 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+02-02-2024T19:06:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+02-02-2024T19:06:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+02-02-2024T19:06:44 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+02-02-2024T19:06:44 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+02-02-2024T19:06:44 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+02-02-2024T19:06:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+02-02-2024T19:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+02-02-2024T19:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/a_Make Appointment_1")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/a_Make Appointment_1' is clicked on
+
+02-02-2024T19:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_MAKINGAPPOINTMENT_OR/Page_CURA Healthcare Service/a_Make Appointment_1' is clicked on
+
+02-02-2024T19:06:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+02-02-2024T19:06:49 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+02-02-2024T19:06:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-02-2024T19:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-02-2024T19:06:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-02-2024T19:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-02-2024T19:06:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+02-02-2024T19:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+02-02-2024T19:06:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/td_31")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/td_31' is clicked on
+
+02-02-2024T19:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/td_31' is clicked on
+
+02-02-2024T19:06:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/textarea_comment"), "cvsgsvagv"): Text 'cvsgsvagv' is set on object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/textarea_comment'
+
+02-02-2024T19:06:52 - [MESSAGE][PASSED] - Text 'cvsgsvagv' is set on object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/textarea_comment'
+
+02-02-2024T19:06:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-02-2024T19:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-02-2024T19:06:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/div_Hongkong CURA Healthcare Center")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/div_Hongkong CURA Healthcare Center' is clicked on
+
+02-02-2024T19:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/div_Hongkong CURA Healthcare Center' is clicked on
+
+02-02-2024T19:06:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/i_fa fa-bars")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+02-02-2024T19:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+02-02-2024T19:06:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/a_History")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/a_History' is clicked on
+
+02-02-2024T19:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/a_History' is clicked on
+
+02-02-2024T19:06:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/h2_History"), 0): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/h2_History' is present
+
+02-02-2024T19:06:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T19:06:56 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/h2_History' is present
+
+02-02-2024T19:06:56 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/p_No appointment"), 0): Web element with id: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/p_No appointment' located by 'By.xpath: //section[@id='history']/div/div/div/p' is not present after '30' second(s)
+
+02-02-2024T19:06:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T19:06:57 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_CHECKHISTORY_OR/Page_CURA Healthcare Service/p_No appointment' located by 'By.xpath: //section[@id='history']/div/div/div/p' is not present after '30' second(s)
+
+02-02-2024T19:06:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+02-02-2024T19:06:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-02-2024T19:06:59 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+02-02-2024T19:06:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+02-02-2024T19:07:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+02-02-2024T19:07:00 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+02-02-2024T19:07:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+02-02-2024T19:07:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+02-02-2024T19:07:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPIONTMENT_PROFILE" time="4.684" classname="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPIONTMENT_PROFILE" status="PASSED">
+         <system-out><![CDATA[02-02-2024T19:07:00 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPIONTMENT_PROFILE: Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPIONTMENT_PROFILE
+
+02-02-2024T19:07:00 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+02-02-2024T19:07:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+02-02-2024T19:07:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+02-02-2024T19:07:00 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+02-02-2024T19:07:00 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+02-02-2024T19:07:00 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+02-02-2024T19:07:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+02-02-2024T19:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+02-02-2024T19:07:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/a_Profile")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/a_Profile' is clicked on
+
+02-02-2024T19:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/a_Profile' is clicked on
+
+02-02-2024T19:07:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/p_Under construction"), 0): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/p_Under construction' is present
+
+02-02-2024T19:07:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T19:07:03 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/p_Under construction' is present
+
+02-02-2024T19:07:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/h2_Profile"), "Profile"): Actual text and expected text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/h2_Profile' are matched.
+
+02-02-2024T19:07:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/h2_Profile' are matched.
+
+02-02-2024T19:07:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/p_Logout")): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/p_Logout' is clickable
+
+02-02-2024T19:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_PROFILE_OR/Page_CURA Healthcare Service/p_Logout' is clickable
+
+02-02-2024T19:07:04 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+02-02-2024T19:07:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+02-02-2024T19:07:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+02-02-2024T19:07:05 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+02-02-2024T19:07:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+02-02-2024T19:07:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+02-02-2024T19:07:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_FOOTER" time="5.315" classname="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_FOOTER" status="PASSED">
+         <system-out><![CDATA[02-02-2024T19:07:05 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_FOOTER: Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_FOOTER
+
+02-02-2024T19:07:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+02-02-2024T19:07:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+02-02-2024T19:07:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+02-02-2024T19:07:05 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+02-02-2024T19:07:05 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+02-02-2024T19:07:05 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+02-02-2024T19:07:05 - [TEST_STEP][PASSED] - click(findTestObject("Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+02-02-2024T19:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+02-02-2024T19:07:06 - [TEST_STEP][PASSED] - click(findTestObject("Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/a_Home")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/a_Home' is clicked on
+
+02-02-2024T19:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/a_Home' is clicked on
+
+02-02-2024T19:07:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/footer_CURA Healthcare Service             _54f5c2"), 0): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/footer_CURA Healthcare Service             _54f5c2' is present
+
+02-02-2024T19:07:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T19:07:07 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/footer_CURA Healthcare Service             _54f5c2' is present
+
+02-02-2024T19:07:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85"), 0): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' is present
+
+02-02-2024T19:07:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T19:07:07 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' is present
+
+02-02-2024T19:07:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/li_(678) 813-1KMS"), "(678) 813-1KMS"): Actual text and expected text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/li_(678) 813-1KMS' are matched.
+
+02-02-2024T19:07:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/li_(678) 813-1KMS' are matched.
+
+02-02-2024T19:07:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-envelope-o fa-fw"), 0): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-envelope-o fa-fw' is present
+
+02-02-2024T19:07:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T19:07:08 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-envelope-o fa-fw' is present
+
+02-02-2024T19:07:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-facebook fa-fw fa-3x")): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-facebook fa-fw fa-3x' is clickable
+
+02-02-2024T19:07:08 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-facebook fa-fw fa-3x' is clickable
+
+02-02-2024T19:07:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-twitter fa-fw fa-3x")): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-twitter fa-fw fa-3x' is clickable
+
+02-02-2024T19:07:08 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-twitter fa-fw fa-3x' is clickable
+
+02-02-2024T19:07:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-dribbble fa-fw fa-3x")): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-dribbble fa-fw fa-3x' is clickable
+
+02-02-2024T19:07:09 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/i_fa fa-dribbble fa-fw fa-3x' is clickable
+
+02-02-2024T19:07:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024"), "Copyright © CURA Healthcare Service 2024"): Actual text and expected text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' are matched.
+
+02-02-2024T19:07:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' are matched.
+
+02-02-2024T19:07:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/a_infokatalon.com")): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/a_infokatalon.com' is clickable
+
+02-02-2024T19:07:09 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_FOOTER_OR/Page_CURA Healthcare Service/a_infokatalon.com' is clickable
+
+02-02-2024T19:07:09 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+02-02-2024T19:07:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+02-02-2024T19:07:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+02-02-2024T19:07:10 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+02-02-2024T19:07:10 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+02-02-2024T19:07:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+02-02-2024T19:07:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_LOGOUT" time="4.522" classname="Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_LOGOUT" status="PASSED">
+         <system-out><![CDATA[02-02-2024T19:07:10 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_LOGOUT: Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_LOGOUT
+
+02-02-2024T19:07:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+02-02-2024T19:07:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+02-02-2024T19:07:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+02-02-2024T19:07:10 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+02-02-2024T19:07:10 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+02-02-2024T19:07:10 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+02-02-2024T19:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+02-02-2024T19:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+02-02-2024T19:07:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_CURA Healthcare")): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_CURA Healthcare' is clickable
+
+02-02-2024T19:07:11 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_CURA Healthcare' is clickable
+
+02-02-2024T19:07:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+02-02-2024T19:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+02-02-2024T19:07:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+02-02-2024T19:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+02-02-2024T19:07:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_Login"), 0): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_Login' is present
+
+02-02-2024T19:07:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T19:07:13 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/a_Login' is present
+
+02-02-2024T19:07:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/div_CURA Healthcare Service        We Care _b17f12")): Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/div_CURA Healthcare Service        We Care _b17f12' is visible
+
+02-02-2024T19:07:14 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_MAKEAPPOINTMENT_OR/CURA_LOGOUT_OR/Page_CURA Healthcare Service/div_CURA Healthcare Service        We Care _b17f12' is visible
+
+02-02-2024T19:07:14 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+02-02-2024T19:07:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+02-02-2024T19:07:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+02-02-2024T19:07:15 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+02-02-2024T19:07:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+02-02-2024T19:07:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+02-02-2024T19:07:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-02-2024T19:06:02 - [TEST_SUITE][PASSED] - CURA_MAKEAPPOINTMENT_TESTSUITE: Test Cases/TC_CURA_MAKEAPPOINTMENT/CURA_MAKEAPPOINTMENT_LOGOUT]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

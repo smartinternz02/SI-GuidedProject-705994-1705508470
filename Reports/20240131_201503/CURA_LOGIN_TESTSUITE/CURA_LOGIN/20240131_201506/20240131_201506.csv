@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_LOGIN,Firefox 85.0,,,31-01-2024 20:15:31,31-01-2024 20:17:04,1m - 33.368s,FAILED
+,,,,,,,
+Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002,Firefox 85.0,,,31-01-2024 20:16:00,31-01-2024 20:16:14,14.920s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 85.0,,,31-01-2024 20:16:00,31-01-2024 20:16:02,1.386s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle""))",Firefox 85.0,,,31-01-2024 20:16:03,31-01-2024 20:16:05,1.606s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login""))",Firefox 85.0,,,31-01-2024 20:16:05,31-01-2024 20:16:07,1.829s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username""), USERNAME)",Firefox 85.0,,,31-01-2024 20:16:07,31-01-2024 20:16:08,1.172s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_password""), PASSWORD)",Firefox 85.0,,,31-01-2024 20:16:08,31-01-2024 20:16:09,0.855s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 85.0,,,31-01-2024 20:16:09,31-01-2024 20:16:10,1.450s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Firefox 85.0,,,31-01-2024 20:16:10,31-01-2024 20:16:11,0.508s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle""))",Firefox 85.0,,,31-01-2024 20:16:11,31-01-2024 20:16:11,0.592s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Logout""))",Firefox 85.0,,,31-01-2024 20:16:11,31-01-2024 20:16:12,1.151s,PASSED
+Start tear down : tearDownTestCase,Firefox 85.0,,,31-01-2024 20:16:12,31-01-2024 20:16:14,2.067s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 85.0,,,31-01-2024 20:16:14,31-01-2024 20:16:14,0.019s,PASSED
+,,,,,,,
+Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002,Firefox 85.0,,,31-01-2024 20:16:15,31-01-2024 20:16:24,9.063s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 85.0,,,31-01-2024 20:16:15,31-01-2024 20:16:15,0.032s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle""))",Firefox 85.0,,,31-01-2024 20:16:15,31-01-2024 20:16:16,0.601s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login""))",Firefox 85.0,,,31-01-2024 20:16:16,31-01-2024 20:16:16,0.916s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username""), USERNAME)",Firefox 85.0,,,31-01-2024 20:16:16,31-01-2024 20:16:17,0.777s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_password""), PASSWORD)",Firefox 85.0,,,31-01-2024 20:16:17,31-01-2024 20:16:18,0.711s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 85.0,,,31-01-2024 20:16:18,31-01-2024 20:16:20,1.621s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Firefox 85.0,,,31-01-2024 20:16:20,31-01-2024 20:16:20,0.417s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle""))",Firefox 85.0,,,31-01-2024 20:16:20,31-01-2024 20:16:21,0.595s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Logout""))",Firefox 85.0,,,31-01-2024 20:16:21,31-01-2024 20:16:22,1.191s,PASSED
+Start tear down : tearDownTestCase,Firefox 85.0,,,31-01-2024 20:16:22,31-01-2024 20:16:24,2.018s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 85.0,,,31-01-2024 20:16:24,31-01-2024 20:16:24,0.004s,PASSED
+,,,,,,,
+Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002,Firefox 85.0,,,31-01-2024 20:16:24,31-01-2024 20:17:04,40.443s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 85.0,,,31-01-2024 20:16:24,31-01-2024 20:16:24,0.031s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle""))",Firefox 85.0,,,31-01-2024 20:16:24,31-01-2024 20:16:25,0.593s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login""))",Firefox 85.0,,,31-01-2024 20:16:25,31-01-2024 20:16:25,0.816s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username""), USERNAME)",Firefox 85.0,,,31-01-2024 20:16:25,31-01-2024 20:16:26,0.795s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_password""), PASSWORD)",Firefox 85.0,,,31-01-2024 20:16:26,31-01-2024 20:16:27,0.788s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 85.0,,,31-01-2024 20:16:27,31-01-2024 20:16:28,1.087s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Firefox 85.0,,,31-01-2024 20:16:28,31-01-2024 20:17:02,34.045s,FAILED
+Start tear down : tearDownTestCase,Firefox 85.0,,,31-01-2024 20:17:02,31-01-2024 20:17:04,2.092s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 85.0,,,31-01-2024 20:17:04,31-01-2024 20:17:04,0.035s,PASSED

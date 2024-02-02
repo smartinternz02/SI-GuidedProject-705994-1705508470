@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CURA_LOGIN</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>2f6e21cf-b49b-4a3e-8d09-23617f2641d0</testSuiteGuid>
+   <testCaseLink>
+      <guid>96e78130-bc33-4664-bc98-2e5ae9b5ba30</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_CURA_LOGIN/CURA_LOGIN_BYGLOBAL_001</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>691a90fe-23a2-4c05-bafa-e8bf1cc243da</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>342535c6-8062-435d-b20b-97a43f1362a1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LOGIN_DATA/CURA_LOGIN_DATA</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>342535c6-8062-435d-b20b-97a43f1362a1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>USERNAME</value>
+         <variableId>9072e561-242e-4b96-b0fb-217ea024a1f2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>342535c6-8062-435d-b20b-97a43f1362a1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PASSWORD</value>
+         <variableId>7335e9de-b308-4436-a0c4-de05e5a94ba1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

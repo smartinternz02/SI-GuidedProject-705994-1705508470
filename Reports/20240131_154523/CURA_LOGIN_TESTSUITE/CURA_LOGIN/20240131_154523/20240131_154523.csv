@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_LOGIN,Chrome 120.0.0.0,,,31-01-2024 15:45:40,31-01-2024 15:46:41,1m - 0.750s,FAILED
+,,,,,,,
+Test Cases/TC_CURA_LOGIN/CURA_LOGIN_BYGLOBAL_001,Chrome 120.0.0.0,,,31-01-2024 15:45:54,31-01-2024 15:46:41,46.763s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,31-01-2024 15:45:54,31-01-2024 15:46:00,6.277s,PASSED
+"click(findTestObject(""Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle""))",Chrome 120.0.0.0,,,31-01-2024 15:46:01,31-01-2024 15:46:01,0.527s,PASSED
+"click(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login""))",Chrome 120.0.0.0,,,31-01-2024 15:46:01,31-01-2024 15:46:03,1.437s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username""), user)",Chrome 120.0.0.0,,,31-01-2024 15:46:03,31-01-2024 15:46:39,35.783s,FAILED
+Start tear down : tearDownTestCase,Chrome 120.0.0.0,,,31-01-2024 15:46:39,31-01-2024 15:46:41,2.048s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,31-01-2024 15:46:41,31-01-2024 15:46:41,0.013s,PASSED
