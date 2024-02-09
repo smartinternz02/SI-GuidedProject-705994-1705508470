@@ -25,7 +25,7 @@
       <testCaseId>Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>342535c6-8062-435d-b20b-97a43f1362a1</id>
+         <id>6dbedc5e-d6f2-4a34-94ed-2097facfa88c</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -34,13 +34,13 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>342535c6-8062-435d-b20b-97a43f1362a1</testDataLinkId>
+         <testDataLinkId>6dbedc5e-d6f2-4a34-94ed-2097facfa88c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>USERNAME</value>
          <variableId>9072e561-242e-4b96-b0fb-217ea024a1f2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>342535c6-8062-435d-b20b-97a43f1362a1</testDataLinkId>
+         <testDataLinkId>6dbedc5e-d6f2-4a34-94ed-2097facfa88c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>PASSWORD</value>
          <variableId>7335e9de-b308-4436-a0c4-de05e5a94ba1</variableId>

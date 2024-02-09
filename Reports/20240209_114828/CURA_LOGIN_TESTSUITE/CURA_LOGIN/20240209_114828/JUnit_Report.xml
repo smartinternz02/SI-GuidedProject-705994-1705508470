@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CURA_LOGIN" time="137.682" tests="4" failures="1" errors="0">
+   <testsuite name="CURA_LOGIN" tests="4" failures="1" errors="0" time="137.682" skipped="0" timestamp="09-02-2024T11:48:38" hostname="hp - LAPTOP-F3RG2V3G" id="Test Suites/CURA_LOGIN_TESTSUITE/CURA_LOGIN">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hp\\git\\SI-GuidedProject-705994-1705508470\\Reports\\20240209_114828\\CURA_LOGIN_TESTSUITE\\CURA_LOGIN\\20240209_114828"/>
+         <property name="logFiles" value="C:\\Users\\hp\\git\\SI-GuidedProject-705994-1705508470\\Reports\\20240209_114828\\CURA_LOGIN_TESTSUITE\\CURA_LOGIN\\20240209_114828\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hp\\git\\SI-GuidedProject-705994-1705508470\\Reports\\20240209_114828\\CURA_LOGIN_TESTSUITE\\CURA_LOGIN\\20240209_114828\\1707459654844.png, C:\\Users\\hp\\git\\SI-GuidedProject-705994-1705508470\\Reports\\20240209_114828\\CURA_LOGIN_TESTSUITE\\CURA_LOGIN\\20240209_114828\\1707459655054.png"/>
+         <property name="hostName" value="hp - LAPTOP-F3RG2V3G"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Firefox 85.0"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="a6cca1e4-db8d-49cc-9d70-e38d99ba8e85"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_CURA_LOGIN/CURA_LOGIN_BYGLOBAL_001" time="10.303" classname="Test Cases/TC_CURA_LOGIN/CURA_LOGIN_BYGLOBAL_001" status="PASSED">
+         <system-out><![CDATA[09-02-2024T11:49:01 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_LOGIN/CURA_LOGIN_BYGLOBAL_001: Test Cases/TC_CURA_LOGIN/CURA_LOGIN_BYGLOBAL_001
+
+09-02-2024T11:49:01 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+09-02-2024T11:49:01 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+09-02-2024T11:49:01 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+09-02-2024T11:49:01 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+09-02-2024T11:49:01 - [TEST_STEP][PASSED] - click(findTestObject("Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+09-02-2024T11:49:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+09-02-2024T11:49:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+09-02-2024T11:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+09-02-2024T11:49:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username"), user): Text 'John Doe' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username'
+
+09-02-2024T11:49:04 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username'
+
+09-02-2024T11:49:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_password"), pass): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_password'
+
+09-02-2024T11:49:05 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_password'
+
+09-02-2024T11:49:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+09-02-2024T11:49:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+09-02-2024T11:49:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment"), 0): Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present
+
+09-02-2024T11:49:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-02-2024T11:49:07 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present
+
+09-02-2024T11:49:07 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle")): Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clickable
+
+09-02-2024T11:49:07 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clickable
+
+09-02-2024T11:49:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+09-02-2024T11:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+09-02-2024T11:49:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_History")): Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_History' is clickable
+
+09-02-2024T11:49:08 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_History' is clickable
+
+09-02-2024T11:49:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Profile")): Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Profile' is clickable
+
+09-02-2024T11:49:08 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Profile' is clickable
+
+09-02-2024T11:49:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Home")): Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Home' is clickable
+
+09-02-2024T11:49:09 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Home' is clickable
+
+09-02-2024T11:49:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Logout")): Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Logout' is clickable
+
+09-02-2024T11:49:09 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Logout' is clickable
+
+09-02-2024T11:49:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+09-02-2024T11:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+09-02-2024T11:49:10 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Delayed 1 second(s)
+
+09-02-2024T11:49:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+09-02-2024T11:49:11 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002" time="25.008" classname="Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002" status="PASSED">
+         <system-out><![CDATA[09-02-2024T11:49:11 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002: Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002
+
+09-02-2024T11:49:11 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+09-02-2024T11:49:11 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+09-02-2024T11:49:11 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+09-02-2024T11:49:11 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+09-02-2024T11:49:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+09-02-2024T11:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+09-02-2024T11:49:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+09-02-2024T11:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+09-02-2024T11:49:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username"), USERNAME): Text 'John Doe' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username'
+
+09-02-2024T11:49:21 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username'
+
+09-02-2024T11:49:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_password"), PASSWORD): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_password'
+
+09-02-2024T11:49:25 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_password'
+
+09-02-2024T11:49:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+09-02-2024T11:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+09-02-2024T11:49:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment"), 0): Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present
+
+09-02-2024T11:49:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-02-2024T11:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present
+
+09-02-2024T11:49:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+09-02-2024T11:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+09-02-2024T11:49:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+09-02-2024T11:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+09-02-2024T11:49:35 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Delayed 1 second(s)
+
+09-02-2024T11:49:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+09-02-2024T11:49:36 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002" time="26.686" classname="Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002" status="PASSED">
+         <system-out><![CDATA[09-02-2024T11:49:36 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002: Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002
+
+09-02-2024T11:49:36 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+09-02-2024T11:49:36 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+09-02-2024T11:49:36 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+09-02-2024T11:49:36 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+09-02-2024T11:49:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+09-02-2024T11:49:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+09-02-2024T11:49:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+09-02-2024T11:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+09-02-2024T11:49:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username"), USERNAME): Text 'John Doe' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username'
+
+09-02-2024T11:49:46 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username'
+
+09-02-2024T11:49:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_password"), PASSWORD): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_password'
+
+09-02-2024T11:49:51 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_password'
+
+09-02-2024T11:49:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+09-02-2024T11:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+09-02-2024T11:49:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment"), 0): Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present
+
+09-02-2024T11:49:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-02-2024T11:49:56 - [MESSAGE][PASSED] - Object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present
+
+09-02-2024T11:49:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+09-02-2024T11:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+09-02-2024T11:49:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+09-02-2024T11:50:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+09-02-2024T11:50:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Delayed 1 second(s)
+
+09-02-2024T11:50:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+09-02-2024T11:50:03 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002" time="52.766" classname="Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)&#xa;	at CURA_LOGIN_DDT_002.run(CURA_LOGIN_DDT_002:38)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1707459508469.run(TempTestSuite1707459508469.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h2' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[09-02-2024T11:50:03 - [TEST_CASE][FAILED] - Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002: Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at CURA_LOGIN_DDT_002.run(CURA_LOGIN_DDT_002:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707459508469.run(TempTestSuite1707459508469.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+09-02-2024T11:50:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+09-02-2024T11:50:03 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+09-02-2024T11:50:03 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+09-02-2024T11:50:03 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+09-02-2024T11:50:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+09-02-2024T11:50:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+09-02-2024T11:50:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+09-02-2024T11:50:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+09-02-2024T11:50:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username"), USERNAME): Text 'YASH' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username'
+
+09-02-2024T11:50:13 - [MESSAGE][PASSED] - Text 'YASH' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_username'
+
+09-02-2024T11:50:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_password"), PASSWORD): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_password'
+
+09-02-2024T11:50:18 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/input_password'
+
+09-02-2024T11:50:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+09-02-2024T11:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+09-02-2024T11:50:21 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment"), 0): Unable to verify object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at CURA_LOGIN_DDT_002.run(CURA_LOGIN_DDT_002:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707459508469.run(TempTestSuite1707459508469.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+09-02-2024T11:50:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-02-2024T11:50:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='appointment']/div/div/div/h2'. Please recheck the objects properties to make sure the desired element is located. 
+
+09-02-2024T11:50:55 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h2' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at CURA_LOGIN_DDT_002.run(CURA_LOGIN_DDT_002:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707459508469.run(TempTestSuite1707459508469.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\hp\\git\\SI-GuidedProject-705994-1705508470\\Reports\\20240209_114828\\CURA_LOGIN_TESTSUITE\\CURA_LOGIN\\20240209_114828\\1707459654844.png]]
+
+09-02-2024T11:50:55 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at CURA_LOGIN_DDT_002.run(CURA_LOGIN_DDT_002:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707459508469.run(TempTestSuite1707459508469.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\hp\\git\\SI-GuidedProject-705994-1705508470\\Reports\\20240209_114828\\CURA_LOGIN_TESTSUITE\\CURA_LOGIN\\20240209_114828\\1707459655054.png]]
+
+09-02-2024T11:50:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Delayed 1 second(s)
+
+09-02-2024T11:50:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+09-02-2024T11:50:56 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[09-02-2024T11:50:03 - [TEST_CASE][FAILED] - Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002: Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at CURA_LOGIN_DDT_002.run(CURA_LOGIN_DDT_002:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707459508469.run(TempTestSuite1707459508469.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-02-2024T11:48:38 - [TEST_SUITE][FAILED] - CURA_LOGIN: Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at CURA_LOGIN_DDT_002.run(CURA_LOGIN_DDT_002:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707459508469.run(TempTestSuite1707459508469.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[09-02-2024T11:48:38 - [TEST_SUITE][FAILED] - CURA_LOGIN: Test Cases/TC_CURA_LOGIN/CURA_LOGIN_DDT_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at CURA_LOGIN_DDT_002.run(CURA_LOGIN_DDT_002:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707459508469.run(TempTestSuite1707459508469.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cura_Pages/CURA_LOGIN_OR/CURA_LOGIN_LOGIN VALIDATION_OR/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

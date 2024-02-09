@@ -20,10 +20,13 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.openBrowser('')
 //
 //WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-
 //WebUI.verifyMatch(WebUI.getWindowTitle(), 'CURA Healthcare Service', false)
+WebUI.verifyElementClickable(findTestObject('Cura_Pages/CURA_HOME_OR/CURA_HOME_VALIDATEBUTTON_OR/Page_CURA Healthcare Service/a_Make Appointment'))
 
 WebUI.click(findTestObject('Object Repository/Cura_Pages/CURA_HOME_OR/CURA_HOME_VALIDATEBUTTON_OR/Page_CURA Healthcare Service/a_Make Appointment'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Cura_Pages/CURA_HOME_OR/CURA_HOME_VERIFYHOMEPAGETEXT_OR/Page_CURA Healthcare Service/h4_CURA Healthcare Service'), 
+    0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Cura_Pages/CURA_HOME_OR/CURA_HOME_VALIDATEBUTTON_OR/Page_CURA Healthcare Service/p_Please login to make appointment'), 
     0)
@@ -31,9 +34,9 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Cura_Pages/CURA_HOM
 WebUI.verifyElementPresent(findTestObject('Object Repository/Cura_Pages/CURA_HOME_OR/CURA_HOME_VALIDATEBUTTON_OR/Page_CURA Healthcare Service/button_Login'), 
     0)
 
+WebUI.verifyElementClickable(findTestObject('Cura_Pages/CURA_HOME_OR/CURA_HOME_VALIDATEBUTTON_OR/Page_CURA Healthcare Service/button_Login'))
+
 WebUI.delay(2)
 
-System.out.println('successfull');
-
-//WebUI.closeBrowser()
+System.out.println('successfull')
 

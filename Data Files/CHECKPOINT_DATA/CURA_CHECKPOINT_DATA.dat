@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>c06b34da-b93f-4f50-bf0c-3fe24284238b</dataFileGUID>
-   <dataSourceUrl>Data Files/LOGIN_DATA/CURA_LOGIN_DATA.xlsx</dataSourceUrl>
+   <dataSourceUrl>Documents/Excel_Data_File/CURA_LOGIN_DATA.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
